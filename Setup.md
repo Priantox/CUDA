@@ -8,8 +8,6 @@ This guide explains how to install **CUDA 13.1 Toolkit** on **WSL2** with an NVI
 ## Prerequisites
 
 - WSL2 installed and running (Ubuntu recommended)
-- NVIDIA GPU with latest Windows driver installed
-- Internet connection
 
 ## Step 1: Download CUDA Installer
 
