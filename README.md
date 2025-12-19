@@ -1,3 +1,5 @@
+![CUDA](https://img.shields.io/badge/CUDA-13.1-orange?style=for-the-badge&logo=nvidia&logoColor=white)
+
 # CUDA 13.1 Installation on WSL2 (Ubuntu)
 
 #### This guide explains how to install **CUDA 13.1 Toolkit** on **WSL2** with an NVIDIA GPU.
