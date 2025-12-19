@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main(){
+    int arr[] = {10, 20, 30, 40, 50};
+    int* ptr = arr; // Pointing to the first element of the array
+
+    printf("Position one: %d\n", *ptr);
+
+    for(int i = 0; i < 5; i++){
+        printf("%d\t", *ptr);
+        printf("%p\t", ptr);
+        ptr++;
+        printf("\n");
+    }
+}
