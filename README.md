@@ -1,6 +1,6 @@
 # CUDA 13.1 Installation on WSL2 (Ubuntu)
 
-This guide explains how to install **CUDA 13.1 Toolkit** on **WSL2** with an NVIDIA GPU.
+#### This guide explains how to install **CUDA 13.1 Toolkit** on **WSL2** with an NVIDIA GPU.
 ⚠️ **Do NOT install NVIDIA Linux drivers** in WSL2 — WSL uses the Windows GPU driver.
 
 ---
