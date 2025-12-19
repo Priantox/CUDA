@@ -17,5 +17,18 @@ int main(){
         return 1;
     }
 
+    // Safe to use ptr after NULL check
+    *ptr = 42;
+    printf("5. Value at ptr: %d\n", *ptr);
+
+    //Free allocated memory
+    free(ptr);
+    ptr = NULL;
+
+    if (ptr == NULL) {
+    printf("7. ptr is NULL, safely avoided use after free\n");
+    }
+
+
     return 0;
 }
