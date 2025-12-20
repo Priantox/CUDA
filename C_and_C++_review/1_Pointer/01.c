@@ -8,6 +8,7 @@ int main(){
 
     int num = 20;
     float fnum = 3.12;
+    // void pointer
     void* vptr = &num;
 
     printf("Value: %d\n", ***ptr3);
