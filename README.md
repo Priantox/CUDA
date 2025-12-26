@@ -28,6 +28,8 @@ cd ~
 Download CUDA 13.1 installer
 ```
 wget https://developer.download.nvidia.com/compute/cuda/13.1.0/local_installers/cuda_13.1.0_590.44.01_linux.run
+```
+```
 chmod +x cuda_13.1.0_590.44.01_linux.run
 ```
 
