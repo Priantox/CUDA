@@ -1,4 +1,4 @@
-# 🧠 CUDA Thread & Block Indexing – Simple Explanation
+# 🧠 CUDA Thread & Block Indexing
 
 This README explains the following CUDA code **in a very beginner‑friendly way**:
 
@@ -36,6 +36,30 @@ int main() {
     cudaDeviceSynchronize();
 }
 ```
+
+---
+
+## ✅ Compile & Run
+
+Run these commands **from this folder** (`3_First_Kernels/01_CUDA_Basics`).
+
+### Linux / WSL (creates a Linux binary)
+
+```bash
+nvcc -o indexing indexing.cu
+```
+```
+./indexing
+```
+
+### Windows (PowerShell / Git Bash)
+
+```bash
+nvcc -o indexing.exe indexing.cu
+./indexing.exe
+```
+
+If you see `nvcc: command not found`, install the **NVIDIA CUDA Toolkit** and open a new terminal so your `PATH` updates.
 
 ---
 

@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 __global__ void whoami(void){
-    int blockIdx_id =  blockIdx.x 
+    int block_id =  blockIdx.x 
                      + blockIdx.y * gridDim.x 
                      + blockIdx.z * gridDim.x * gridDim.y;
     
@@ -15,7 +15,7 @@ __global__ void whoami(void){
     
     printf("%04d | Block(%d %d %d) = %3d | Thread(%d %d %d) = %3d\n",
         id,
-        blockIdx.x, blockIdx.y, blockIdx.z, block_id,
+        blockIdx.x, blockIdx.y, blockIdx.z, block_id, // Global ID
         threadIdx.x, threadIdx.y, threadIdx.z, thread_offset); // Global ID
 }
 
@@ -23,7 +23,7 @@ int main(int argc, char **argv){
     const int b_x = 2, b_y = 3, b_z = 4;
     const int t_x = 4, t_y = 4, t_z = 4;
 
-    int block_per_grid = b_x * b_y * b_z;
+    int blocks_per_grid = b_x * b_y * b_z;
     int threads_per_block = t_x * t_y * t_z;
 
     printf("%d blocks/grid\n", blocks_per_grid);
