@@ -93,6 +93,30 @@ Grid
 
 ---
 
+
+Then:
+- Block 0 → `blockIdx.x = 0`
+- Block 1 → `blockIdx.x = 1`
+- Block 2 → `blockIdx.x = 2`
+
+---
+
+## 2️⃣ `blockDim` — How big is a block?
+
+`blockDim` tells you **how many threads exist in one block**.
+
+### Components
+- `blockDim.x` → threads in X direction  
+- `blockDim.y` → threads in Y direction  
+- `blockDim.z` → threads in Z direction  
+
+### Simple Meaning
+> **"How many apartments are in this building?"**
+
+### Example
+```cpp
+kernel<<<10, 256>>>();
+```
 ## 📦 How Many Blocks Are There?
 
 ```c
