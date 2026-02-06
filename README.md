@@ -154,7 +154,7 @@ cd 2_Basic/
 ```
 ##### Compile the matrix-vector multiplication program
 ```
-gcc basic.c -o basic
+nvcc -o matrix_vector.exe 3_matrix_vector.cu
 ```
 ##### Run the program
 ```

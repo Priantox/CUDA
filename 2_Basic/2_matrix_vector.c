@@ -14,7 +14,7 @@ void matrix_vector_product(float *matrix, float *v1, float *v2, int matrix_size)
 int main(int argc, char **argv){
     float *matrix, *v1, *v2;
 
-    int matrix_size = 4000;
+    int matrix_size = 40000;
 
     matrix = (float *) malloc(matrix_size * matrix_size * sizeof(float));
     v1 = (float *) malloc(matrix_size * sizeof(float));
