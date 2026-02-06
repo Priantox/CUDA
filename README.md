@@ -144,6 +144,24 @@ source ~/.bashrc
 
 ---
 
+## 📚 Running Code Examples
+
+Once CUDA is installed, you can compile and run the various C/C++ and CUDA examples in this repository:
+
+##### Navigate to the basic examples directory
+```
+cd 2_Basic/
+```
+##### Compile the matrix-vector multiplication program
+```
+gcc basic.c -o basic
+```
+##### Run the program
+```
+./matrix_vector
+```
+---
+
 ### ✅ Step 5: Installation Verification
 
 <table align="center" width="90%">
@@ -195,13 +213,9 @@ nvidia-smi
 </tr>
 </table>
 
+
 ---
-
-
-
 ## 🎉 Installation Complete!
-
-
 
 ---
 
