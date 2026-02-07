@@ -160,6 +160,10 @@ nvcc -o matrix_vector.exe 3_matrix_vector.cu
 ```
 ./matrix_vector
 ```
+##### For gcc compile
+```
+gcc 2_matrix_vector.c -o matrix_vector
+```
 ---
 
 ### ✅ Step 5: Installation Verification

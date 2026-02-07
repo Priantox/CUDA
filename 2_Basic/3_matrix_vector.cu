@@ -50,7 +50,7 @@ int main(int argc, char **argv){
     cudaMemcpy(v2, v2_gpu, matrix_size * sizeof(float), cudaMemcpyDeviceToHost);
 
     for(int i = 0; i < matrix_size; i++){
-        printf("v2[%d] = %0.2f\n", i, v2[i]);
+        printf("%0.2f\n", v2[i]);
     }
 
     free(matrix);
