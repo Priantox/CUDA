@@ -101,6 +101,7 @@ int main() {
     }
     double gpu_avg_time = gpu_total_time / 20.0;
 
+    
     // Print results
     printf("CPU average time: %f milliseconds\n", cpu_avg_time*1000);
     printf("GPU average time: %f milliseconds\n", gpu_avg_time*1000);
