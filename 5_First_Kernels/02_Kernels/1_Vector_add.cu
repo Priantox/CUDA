@@ -56,7 +56,7 @@ int main() {
     init_vector(h_a, N);
     init_vector(h_b, N);
 
-    // Allocate device memory
+    // Allocate device memoryc
     cudaMalloc(&d_a, size);
     cudaMalloc(&d_b, size);
     cudaMalloc(&d_c, size);
